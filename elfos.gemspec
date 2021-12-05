@@ -3,8 +3,8 @@
 require_relative "lib/elfos/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "elfos"
-  spec.version = Elfos::VERSION
+  spec.name = "ElfOS"
+  spec.version = ElfOS::VERSION
   spec.authors = ["Steven Harrison"]
   spec.email = ["ste@hey.com"]
 

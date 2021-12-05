@@ -2,7 +2,11 @@
 
 require_relative "elfos/version"
 
-module Elfos
+module ElfOS
   class Error < StandardError; end
-  # Your code goes here...
+
+  def self.answer
+    "Merry Christmas"
+  end
+
 end

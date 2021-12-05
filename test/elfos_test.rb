@@ -2,8 +2,13 @@
 
 require "test_helper"
 
-class ElfosTest < Minitest::Test
+class ElfOSTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Elfos::VERSION
+    refute_nil ::ElfOS::VERSION
   end
+
+  def test_answer
+    assert_equal "Merry Christmas", ElfOS.answer
+  end
+
 end

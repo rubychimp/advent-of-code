@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    elfos (0.1.0)
+    ElfOS (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -13,7 +13,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  elfos!
+  ElfOS!
   minitest (~> 5.0)
   rake (~> 13.0)
 
